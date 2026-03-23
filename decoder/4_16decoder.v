@@ -3,7 +3,7 @@ module decoder4to16(
     input wire A2,
     input wire A1,
     input wire A0,
-    output wire [7:0] Y
+  output wire [15:0] Y
 );
 
   	assign Y[0] = (~A3 & ~A2 & ~A1 & ~A0);
